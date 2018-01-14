@@ -1,0 +1,18 @@
+dbg 1
+put 1
+put 9600
+uinit
+put *unit
+print
+put 0x05
+put 0x04
+put 0x03
+put 0x02
+put 0x01
+put 0x05
+uwrite
+put *uwrite
+print
+put 1
+slp 0.5
+ifs -17
