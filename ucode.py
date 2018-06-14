@@ -492,8 +492,9 @@ def execute_file(fname):
     execute(lines)
 
 if __name__ == '__main__':
-    if len(sys.argv)==2:
-        execute_file(sys.argv[1])
-    else:
-        test_console()
+    #if len(sys.argv)==2:
+    #    execute_file(sys.argv[1])
+    #else:
+    #    test_console()
+    execute_file('code.txt')
 
